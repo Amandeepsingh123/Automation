@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyAssert" thread-count="2" parallel="methods" >
+    <tests>
+    <test name="MyFirefox" >
+   
+    <classes>
+    
+    	<class name="yatraParallel.Parallel"> </class>
+    	
+    </classes>
+    </test>
+  
+    </tests>
+
+</suite>

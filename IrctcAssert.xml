@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MyAssert" parallel="methods" >
+    <tests>
+    <parameter name="browser" value="FireFox"/>
+    <parameter name="browser1" value="chrome"/>
+    <test name="MyFirefox" >
+   
+    <classes>
+    
+    	<class name="IrctcAssert.Irctcassert"> </class>
+    </classes>
+    </test>
+  
+    </tests>
+
+</suite>

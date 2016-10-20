@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MyAssert" duration-ms="65622" started-at="2016-10-19T07:34:12Z" finished-at="2016-10-19T07:35:18Z">
+    <groups>
+    </groups>
+    <test name="Mychrome" duration-ms="61425" started-at="2016-10-19T07:34:12Z" finished-at="2016-10-19T07:35:13Z">
+      <class name="parameteized.para">
+        <test-method status="PASS" signature="para1(java.lang.String)[pri:0, instance:parameteized.para@d8355a8]" name="para1" duration-ms="61404" started-at="2016-10-19T13:04:12Z" finished-at="2016-10-19T13:05:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- para1 -->
+      </class> <!-- parameteized.para -->
+    </test> <!-- Mychrome -->
+    <test name="MyFirefox" duration-ms="65622" started-at="2016-10-19T07:34:12Z" finished-at="2016-10-19T07:35:18Z">
+      <class name="parameteized.para">
+        <test-method status="PASS" signature="para1(java.lang.String)[pri:0, instance:parameteized.para@68be2bc2]" name="para1" duration-ms="65603" started-at="2016-10-19T13:04:12Z" finished-at="2016-10-19T13:05:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- para1 -->
+      </class> <!-- parameteized.para -->
+    </test> <!-- MyFirefox -->
+  </suite> <!-- MyAssert -->
+</testng-results>

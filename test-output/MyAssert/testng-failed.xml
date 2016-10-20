@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyAssert]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="MyFirefox(failed)" parallel="tests">
+    <parameter name="browser" value="FireFox"/>
+    <classes>
+      <class name="parameteized.para">
+        <methods>
+          <include name="para1" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parameteized.para -->
+    </classes>
+  </test> <!-- MyFirefox(failed) -->
+</suite> <!-- Failed suite [MyAssert] -->
